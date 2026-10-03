@@ -1,0 +1,157 @@
+    
+
+
+    /*tudo*/
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial;
+    }
+    
+    body{
+        background-color: #BDE0FE;
+    }
+    
+    /*titulo*/
+    header{
+        background-color: #FFAFCC;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    /*descricao*/
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+
+    .descricao{
+        background-color: #FFC8DD;
+        text-align: center;
+
+        align-content: center;
+        
+        width: 600px;
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+
+        margin: 10px;
+
+    }   
+
+    #tituloprodutos{
+        align-items: center;
+        background-color: #CDB4DB;
+
+        text-align: center;
+
+        width: 300px;
+        padding: 5px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+    }
+
+    
+    /* Caixa dos produtos*/
+    #produtos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    /* PRODUTO*/
+    article{
+        background-color: #A2D2FF;
+
+        margin: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+        border: 3px solid black;
+        border-radius: 20px;
+
+
+        width: 250px;
+        min-width: 250px;
+        max-width: 250px;
+
+        min-height: 350px;
+
+
+        text-align: center;
+    }
+            #produtos article img{
+                width: 200px;;
+                height: 200px;
+            }
+
+            #produtos article h3{
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #produtos article a{
+                display: inline-block;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 6px;
+                background-color: #2563eb;
+                color: white;
+                text-decoration: none;
+            }
+            #produtos article a:hover{
+                text-decoration:underline;
+            }
+
+
+    /* Cadastro Produtos:*/
+    #tituloCadastro{
+        background-color: #CDB4DB;
+
+        text-align: center;
+
+        width: 500px;
+        padding: 5px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+    }
+    .cadastro{
+        background-color: #FFC8DD;
+
+        align-content: center;
+        
+        width: 600px;
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+
+        margin: 10px;
+
+    }   
+        #cadastroBotao{
+            text-align: end;
+        }
+            #cadastroBotao button{
+                background-color: #fff;
+                color: black;
+                padding: 10px 20px;
+                border: rgb(102, 102, 102) 1px solid;
+                border-radius: 6px;
+            }
+            #cadastroBotao button:hover{
+                background-color: #c7c1c1;
+            }
+    
+
+    /*footer da pagina*/
+    footer{
+        background-color: #FFAFCC;
+    }
+
+
+    
